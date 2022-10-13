@@ -165,3 +165,17 @@ background-color: #cdebbc;
 #feature .fe-box:nth-child(6) h6{
 background-color: #cdebbc;
 }
+
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cdebbc;
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
