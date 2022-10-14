@@ -316,3 +316,12 @@ body {
   font-weight: 500;
   padding-bottom: 15px;
 }
+#sm-banner .banner-box:hover button{
+background: #088178;
+border:  1px solid #088178;
+/* color: white; */
+}
+#sm-banner .banner-box2{
+  background-image: url(./img/banner/b10.jpg);
+
+}
