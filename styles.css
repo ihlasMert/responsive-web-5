@@ -562,6 +562,12 @@ footer .copyright {
   footer {
     padding: 0 70px;
   }
+  #form-details{
+    padding: 40px;
+  }
+  #form-details form{
+    width: 50%;
+  }
 }
 @media (max-width: 477px) {
   .section-p1 {
@@ -657,6 +663,12 @@ footer .copyright {
   #about-app .video {
     width: 100%;
   }
+  #form-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #088178;
 }
 
 /* SHOPPİNG PAGE */
