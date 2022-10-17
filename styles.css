@@ -625,6 +625,19 @@ footer .copyright {
     height: 300px;
     object-fit: contain;
   }
+  /* blog page */
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  .blog-img {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 /* SHOPPİNG PAGE */
@@ -659,12 +672,12 @@ p {
   font-weight: 900;
   padding: 20px;
 }
-#MainImg{
+#MainImg {
   width: 600px;
   height: 600px;
   object-position: center;
 }
-.small-img{
+.small-img {
   width: 123px;
   height: 100px;
 }
@@ -719,4 +732,102 @@ p {
 }
 #prodetails .single-pro-details span {
   line-height: 27px;
+}
+/* blog page */
+
+#page-header .blog-header {
+  background-image: url(./img/banner/b19.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#blog {
+  padding: 150px 150px 0 150px;
+}
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+#blog .blog-details {
+  width: 50%;
+}
+
+#blog .blog-details a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+}
+#blog .blog-details a::after {
+  content: "";
+  background-color: #000;
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  display: block;
+  right: 35%;
+  bottom: 16.5%;
+}
+#blog .blog-details a:hover {
+  color: #088178;
+}
+#blog .blog-details a:hover::after {
+  background-color: #088178;
+}
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 800;
+  color: #cdebbc;
+  z-index: -1;
+}
+
+/* about page */
+#page-header .about-header {
+  background-image: url(./img/about/banner.png);
+}
+marquee {
+  background-color: #ccc;
+  loop: -1px;
+  scrollamount: 5;
+  width: 100%;
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+#about-head div {
+  padding-left: 40px;
+}
+#about-app {
+  text-align: center;
+}
+#about-app .video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+#about-app .video  video{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
